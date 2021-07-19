@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     box-sizing: border-box;
-    background-color: #D9E6F6;
+    background-color: #43434a;
     font-family: sans-serif;
   }
 
