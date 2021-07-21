@@ -14,27 +14,7 @@ export default function Home(props)
 
 //#region Variaveis
   const usuario = props.githubUser;
-  const pessoasFavoritas = [
-    {
-      nome: 'juunegreiros',
-      imagem: "https://github.com/juunegreiros.png"
-    },
-    {
-      nome:'rafaballerini',
-      imagem: "https://github.com/rafaballerini.png"
-    }, 
-    {
-      nome:'peas',
-      imagem: "https://github.com/peas.png"
-    },
-    {
-      nome:'marcobrunodev',
-      imagem: "https://github.com/marcobrunodev.png"
-    },
-    {
-      nome:'felipefialho',
-      imagem: "https://github.com/felipefialho.png"
-    }];
+  const pessoasFavoritas = [];
 
   const [comunidades, setComunidades] = React.useState([]);
   const [seguidores, setSeguidores] = React.useState([]);
@@ -177,8 +157,6 @@ export async function getServerSideProps(context)
     }
   })
   .then(resposta => resposta.json());
-
-  console.log("O resultado é " + isAuthenticated)
 
   //console.log(token)
 
