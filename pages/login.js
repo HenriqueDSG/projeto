@@ -94,7 +94,7 @@ const LoginPage = () =>
         <main style={{ display: "flex", flex: 1, alignItems: "center", justifyContent: "center"}}>
             <div className="loginScreen">
                 <section className="logoArea">
-                    <img src="http://alurakut.vercel.app/logo.svg" />
+                    {/* <img src="http://alurakut.vercel.app/logo.svg" /> */}
 
                     <p> <strong> Conecte-se </strong> aos seus amigos e familiares usando recados e mensagens instantâneas </p>
                     <p> <strong> Conheça </strong> novas pessoas através de amigos de seus amigos e comunidades </p>
